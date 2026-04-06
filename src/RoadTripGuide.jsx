@@ -58,18 +58,22 @@ const DAYS = [
     ]
   },
   {
-    num: 4, date: "Sam 03/05", title: "Aareschlucht + Retour", subtitle: "Derniere merveille",
-    color: "#9C27B0", km: "550 km", budget: "~170 EUR",
+    num: 4, date: "Sam 03/05", title: "St. Beatus + Aareschlucht + Retour", subtitle: "Grottes, cascade et gorges",
+    color: "#9C27B0", km: "570 km", budget: "~200 EUR",
     stops: [
-      { time: "08:00", name: "Route vers Meiringen", lat: 46.7272, lng: 8.1892,
-        desc: "Visp - Spiez - Interlaken - Meiringen (~2h). Trajet le long du lac de Thoune = magnifique.",
+      { time: "07:30", name: "Depart vers Beatenberg", lat: 46.6853, lng: 7.7711,
+        desc: "Visp - Spiez - Interlaken - Beatenberg (~1h45). Route le long du lac de Thoune = magnifique.",
         tip: null, price: null },
-      { time: "10:30", name: "Gorges de l'Aar", lat: 46.7192, lng: 8.2122,
+      { time: "09:30", name: "Grottes de St. Beatus", lat: 46.6853, lng: 7.7711,
+        desc: "Grottes millenaires avec cascade spectaculaire a l'entree ! 1 km de galeries souterraines amenagees, stalactites, stalagmites et lac souterrain. La legende raconte que le moine Beatus y aurait chasse un dragon.",
+        tip: "Prevoir une veste, il fait 8-10 C dans les grottes. La cascade a l'entree est impressionnante avec la fonte des neiges en mai. Parking payant sur place.",
+        price: "19 CHF/pers", link: "https://www.beatushoehlen.swiss", duration: "1h" },
+      { time: "11:00", name: "Gorges de l'Aar", lat: 46.7192, lng: 8.2122,
         desc: "Derniere claque ! Canyon de 200m de profondeur, eau turquoise, passage a 1m de large entre les parois. 40 min de balade.",
-        tip: "Fun fact : Meiringen = berceau de la meringue. Chutes de Reichenbach juste a cote (mort de Sherlock Holmes) !",
+        tip: "Fun fact : Meiringen = berceau de la meringue. Chutes de Reichenbach juste a cote (mort de Sherlock Holmes) ! Environ 40 min de route depuis St. Beatus.",
         price: "9 CHF/pers", link: "https://aareschlucht.ch", duration: "40 min" },
-      { time: "12:30", name: "Retour Beaufays", lat: 50.585, lng: 5.655,
-        desc: "Meiringen - Brunig - Lucerne - Bale - Luxembourg - Beaufays. Arrivee ~18h.",
+      { time: "13:00", name: "Retour Beaufays", lat: 50.585, lng: 5.655,
+        desc: "Meiringen - Brunig - Lucerne - Bale - Luxembourg - Beaufays. Arrivee ~18h30.",
         tip: "Alternative plus rapide : via Berne (autoroute directe).", price: null },
     ]
   }
